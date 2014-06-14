@@ -11,6 +11,7 @@
 		A6C6BE85194CA4FD00B98528 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6BE84194CA4FD00B98528 /* AppDelegate.m */; };
 		A6C6BE87194CA4FD00B98528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C6BE86194CA4FD00B98528 /* Images.xcassets */; };
 		A6C6BE93194CA4FD00B98528 /* HCKVOHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6BE92194CA4FD00B98528 /* HCKVOHelperTests.m */; };
+		A6C6BE9F194CA52500B98528 /* HCKVOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6BE9E194CA52500B98528 /* HCKVOHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,8 @@
 		A6C6BE8C194CA4FD00B98528 /* HCKVOHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCKVOHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C6BE91194CA4FD00B98528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6C6BE92194CA4FD00B98528 /* HCKVOHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCKVOHelperTests.m; sourceTree = "<group>"; };
+		A6C6BE9D194CA52500B98528 /* HCKVOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCKVOHelper.h; sourceTree = "<group>"; };
+		A6C6BE9E194CA52500B98528 /* HCKVOHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCKVOHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 		A6C6BE7E194CA4FC00B98528 /* HCKVOHelper */ = {
 			isa = PBXGroup;
 			children = (
+				A6C6BE9C194CA50400B98528 /* Classes */,
 				A6C6BE83194CA4FC00B98528 /* AppDelegate.h */,
 				A6C6BE84194CA4FD00B98528 /* AppDelegate.m */,
 				A6C6BE86194CA4FD00B98528 /* Images.xcassets */,
@@ -106,6 +110,15 @@
 				A6C6BE91194CA4FD00B98528 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6C6BE9C194CA50400B98528 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6BE9D194CA52500B98528 /* HCKVOHelper.h */,
+				A6C6BE9E194CA52500B98528 /* HCKVOHelper.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C6BE9F194CA52500B98528 /* HCKVOHelper.m in Sources */,
 				A6C6BE85194CA4FD00B98528 /* AppDelegate.m in Sources */,
 				A6C6BE82194CA4FC00B98528 /* main.m in Sources */,
 			);
